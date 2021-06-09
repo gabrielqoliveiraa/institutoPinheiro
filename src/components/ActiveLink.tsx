@@ -22,7 +22,7 @@ export function ActiveLink({ children, ShouldMatchHref = false, ...rest}: Active
     return (
         <Link {...rest}>
             {cloneElement(children, {
-                color: isActive ? 'pink.400' : "gray.50"
+                color: isActive ? 'orange.300' : "black"
             })}
         </Link>
     )

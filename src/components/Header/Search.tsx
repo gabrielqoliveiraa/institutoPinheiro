@@ -11,9 +11,9 @@ export function Search() {
       ml="6"
       maxWidth={400}
       alignSelf="center"
-      color="gray.200"
+      color="white"
       position="relative"
-      bg="gray.800"
+      bg="white"
       borderRadius="full"
     >
       <Input
@@ -25,7 +25,7 @@ export function Search() {
         mr="4"
       />
 
-      <Icon as={RiSearchLine} fontSize="20" />
+      <Icon as={RiSearchLine} fontSize="20" color='gray.400'/>
     </Flex>
   );
 }

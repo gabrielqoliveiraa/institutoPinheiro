@@ -12,9 +12,9 @@ export function PaginationItem({ isCurrent = false, number }: PaginationItemProp
         size="sm"
         fontSize="xs"
         width="4"
-        colorScheme="pink"
+        colorScheme="orange"
         disabled
-        _disabled={{ bgColor: "pink.500", cursor: "default" }}
+        _disabled={{ bgColor: "orange.300", cursor: "default" }}
       >
         {number}
       </Button>
@@ -26,7 +26,7 @@ export function PaginationItem({ isCurrent = false, number }: PaginationItemProp
       size="sm"
       fontSize="xs"
       width="4"
-      bgColor="gray.700"
+      colorScheme='linkedin'
       _hover={{ bgColor: "gray.500" }}
     >
     {number}
